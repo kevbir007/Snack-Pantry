@@ -1,0 +1,268 @@
+.Checkout {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Checkout-body-container {
+    height: 100vh;
+    width: 62vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.Checkout-logo {
+    font-family: 'Ribeye Marrow', cursive;
+    font-size: 30px;
+    color: royalblue;
+    margin-top: 50px;
+}
+
+.Progress-container {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.Checkout-select-size {
+    color: rgb(52, 196, 16);
+    width: 60px;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.Checkout-select-length {
+    color: rgb(52, 196, 16);
+    width: 70px;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Checkout-Account-info {
+    color: rgb(52, 196, 16);
+    width: 60px;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.Checkout-checkout {
+    color: rgb(52, 196, 16);
+    width: 60px;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.Checkout-dotted-line {
+    width: 60px;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.Shipping-address-text {
+    margin-top: 50px;
+    color: royalblue;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.Checkout-info-container {
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.Checkout-name-container {
+    border-bottom: 1px solid;
+    height: 40px;
+    width: 607px;
+    border-color: royalblue
+}
+
+.Checkout-name {
+    margin-left: 20px;
+    height: 34px;
+    border: none;
+    width: 550px;
+    color: blue;
+    font-size: 25px;
+}
+
+.Checkout-country {
+    border-bottom: 1px solid;
+    height: 40px;
+    width: 96%;
+    border-color: royalblue;
+    margin-top: 15px;
+}
+
+.Country-input {
+    margin-left: 20px;
+    height: 34px;
+    border: none;
+    width: 250px;
+    color: blue;
+    font-size: 25px;
+}
+
+.Checkout-address {
+    border-bottom: 1px solid;
+    height: 40px;
+    width: 96%;
+    border-color: royalblue;
+    margin-top: 15px;
+}
+
+.Address-input {
+    margin-left: 20px;
+    height: 34px;
+    border: none;
+    width: 550px;
+    color: blue;
+    font-size: 25px;
+}
+
+.City-state-zip-container {
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+}
+
+.Checkout-city {
+    border-bottom: 1px solid;
+    height: 40px;
+    width: 300px;
+    border-color: royalblue;
+    margin-top: 15px;
+}
+
+.City-input {
+    margin-left: 20px;
+    height: 34px;
+    border: none;
+    width: 250px;
+    color: blue;
+    font-size: 25px;
+}
+
+.Checkout-state {
+    border-bottom: 1px solid;
+    height: 40px;
+    width: 300px;
+    border-color: royalblue;
+    margin-top: 15px;
+}
+
+.State-input {
+    margin-left: 20px;
+    height: 34px;
+    border: none;
+    width: 250px;
+    color: blue;
+    font-size: 25px;
+}
+
+.Checkout-zip {
+    border-bottom: 1px solid;
+    height: 40px;
+    width: 300px;
+    border-color: royalblue;
+    margin-top: 15px;
+}
+
+.Zip-input {
+    margin-left: 20px;
+    height: 34px;
+    border: none;
+    width: 250px;
+    color: blue;
+    font-size: 25px;
+}
+
+.Checkout-lower-body {
+    margin-top: 100px;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./../../Pictures/Blue-background.jpg');
+    justify-content: center;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.Review-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 19%; */
+    align-items: flex-start;
+}
+
+.Review {
+    color: white;
+    font-size: 27px;
+    margin-top: 30px;
+}
+
+.Checkout-box-type {
+    color: white;
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.Subtotal-container {
+    display: flex;
+}
+
+.Subtotal {
+    color: white;
+    margin-top: 5px;
+}
+
+.Sub-dotted {
+    width: 125px;
+    border-bottom: 2px dotted;
+    color: white;
+}
+
+.Box-total-1 {
+    color: white;
+    margin-top: 5px;
+}
+
+.Box-total {
+    color: white;
+    margin-top: 5px;
+}
+
+.Shipping-container {
+    display: flex;
+}
+
+.Recurring-container {
+    display: flex;
+}
+
+.Place-order-button {
+    margin-top: 100px;
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: rgb(52, 196, 16);
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+}

@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Ribeye+Marrow');
+@import url('https://fonts.googleapis.com/css?family=Finger+Paint');
+
+.Size {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Size-body-container {
+    height: 100vh;
+    width: 62vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.Size-logo {
+    font-family: 'Ribeye Marrow', cursive;
+    font-size: 30px;
+    color: royalblue;
+    margin-top: 50px;
+}
+
+.Progress-container {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.Size-select-size {
+    color: rgb(52, 196, 16);
+    width: 60px;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.Size-select-length {
+    color: royalblue;
+    width: 70px;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.Size-Account-info {
+    color: rgb(52, 196, 16);
+    width: 60px;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.Size-checkout {
+    color: royalblue;
+    width: 60px;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.Size-dotted-line {
+    width: 60px;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.Size-select-a-size {
+    font-size: 29px;
+    color: royalblue;
+    font-weight: bolder;
+    margin-top: 40px;
+}
+
+.Mid-container {
+    display: flex;
+    margin-top: 100px;
+}
+
+.Size-left-pic {
+    height: 375px;
+    width: 375px;
+    background-image: url('./../../Pictures/Yum-Box-Thailand.jpg');
+    background-size: cover;
+}
+
+.Size-yum-box-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.Size-yum-box-text {
+    font-size: 30px;
+    font-weight: bolder;
+    color: royalblue;
+}
+
+.Yum-box-info-container {
+    display: flex;
+}
+
+.First-check {
+    background-image: url('./../../Pictures/check-square-green-512.png');
+    height: 16px;
+    width: 16px;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.First-check-info {
+    font-size: 14px;
+    color: royalblue;
+    margin-top: 20px;
+    margin-left: 13px;
+}
+
+.Size-select-button {
+    height: 45px;
+    width: 170px;
+    background-color: royalblue;
+    border-radius: 25px;
+    margin-top: 100PX;
+    color: white;
+    font-weight: bolder;
+}
+
+.Dotted-line-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    width: 18px;
+}
+
+.Size-border {
+    height: 150px;
+    border-right: dotted;
+    color: royalblue;
+}
+
+.Size-or-text {
+    font-family: 'Finger paint', cursive;
+    font-size: 30px;
+    color: royalblue;
+    /* margin-left: 20px; */
+}
+
+.Size-yum-yum-box-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+.Size-yum-yum-box-text {
+    font-size: 30px;
+    font-weight: bolder;
+    color: royalblue;
+}
+
+.Size-select-button-2 {
+    height: 45px;
+    width: 170px;
+    background-color: royalblue;
+    border-radius: 25px;
+    margin-top: 102PX;
+    margin-left: 70px;
+    color: white;
+    font-weight: bolder;
+}
+
+.Size-right-pic {
+    height: 375px;
+    width: 375px;
+    background-image: url('./../../Pictures/Yum-Yum-Box.jpg');
+    background-size: cover;
+}

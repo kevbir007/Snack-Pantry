@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Ribeye+Marrow');
+@import url('https://fonts.googleapis.com/css?family=Finger+Paint');
+
+.Length {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Length-body-container {
+    height: 100vh;
+    width: 62vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.Length-logo {
+    font-family: 'Ribeye Marrow', cursive;
+    font-size: 30px;
+    color: royalblue;
+    margin-top: 50px;
+}
+
+.Progress-container {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.Length-select-size {
+    color: rgb(52, 196, 16);
+    width: 60px;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.Length-select-length {
+    color: rgb(52, 196, 16);
+    width: 70px;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+    /* border: dotted; */
+    border-radius: 10px;
+    /* height: 35px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.Length-Account-info {
+    color: rgb(52, 196, 16);
+    width: 60px;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.Length-checkout {
+    color: royalblue;
+    width: 60px;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.Length-dotted-line {
+    width: 60px;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.Select-length-text {
+    font-size: 38px;
+    color: royalblue;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+
+.Length-mid-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 40px;
+}
+
+.Length-plan-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Year-plan-container {
+    border: 1px solid;
+    border-color: royalblue;
+    height: 100px;
+    width: 480px;
+    display: flex;
+    align-items: center;
+}
+
+.Plan-button {
+    height: 60px;
+    width: 250px;
+    border-radius: 30px;
+    background-color: royalblue;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.Info-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.Price {
+    color: royalblue;
+    font-weight: bolder;
+}
+
+.Total {
+    color: royalblue;
+    font-weight: bolder;
+    font-size: 10px;
+}
+
+.Month-plan-container {
+    border-bottom: dotted;
+    color: royalblue;
+    width: 480px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.Back-button-containter {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.Left-arrow {
+    height: 15px;
+    width: 15px;
+    background-image: url('./../../Pictures/left-arrow.png');
+    background-size: cover;
+    margin-top: 10px;
+}
+
+.Length-go-back-button {
+    color: royalblue;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.Selected-pic-1 {
+    height: 500px;
+    width: 500px;
+    background-image: url('./../../Pictures/Yum-Box-Thailand.jpg');
+    background-size: cover;
+}

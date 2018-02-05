@@ -1,0 +1,808 @@
+@import url('https://fonts.googleapis.com/css?family=Finger+Paint');
+@import url('https://fonts.googleapis.com/css?family=Ribeye+Marrow');
+
+@media only screen and (min-width: 769px) {
+    
+    .Home {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .Home-body-container {
+        height: 100vh;
+        width: 62vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Home-header {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+    }
+    
+    .Home-logo {
+        height: 100px;
+        font-size: 45px;
+        color: royalblue;
+        font-family: 'Ribeye Marrow', cursive;
+        text-align: center;
+    }
+    
+    .Login-container {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .User-icon {
+        height: 15px;
+        width: 15px;
+        background-image: url('./../../Pictures/user-icon.png');
+        background-size: cover;
+        margin-top: 30px;
+        margin-right: 5px;
+    }
+    
+    .Home-logout {
+        font-size: 14px;
+        font-weight: bolder;
+        margin-top: 30px;
+        color: royalblue;
+    }
+    
+    .Home-pic-container {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .Home-snack-left {
+        background-image: url('./../../Pictures/61Gx5HEFhfL._SX466_.jpg');
+        height: 350px;
+        width: 350px;
+        /* height: 15%; */
+        /* width: 13%; */
+        background-size: cover;
+        float: left;
+    }
+    
+    
+    .Slogan-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .Slogan-1 {
+        font-size: 40px;
+        font-weight: bolder;
+        color: royalblue;
+        /* width: 200px; */
+        margin-top: 50px;
+    }
+    
+    .Slogan-2 {
+        font-size: 30px;
+        /* font-weight: bolder; */
+        color: royalblue;
+        font-family: 'Finger Paint', cursive;
+        border-bottom: dotted rgb(58, 218, 19);
+    }
+    
+    .Slogan-3 {
+        font-size: 40px;
+        font-weight: bolder;
+        color: royalblue;
+    }
+    
+    .Home-button-container {
+        display: flex;
+        justify-content: space-between;
+        width: 400px;
+    }
+    
+    .Get-started-button {
+        height: 45px;
+        width: 170px;
+        border-radius: 20px;
+        margin-top: 40px;
+        background-color: royalblue;
+        font-size: 15px;
+        font-weight: bolder;
+        color: white;
+    }
+    
+    .Home-or {
+        font-size: 26px;
+        font-family: 'Finger Paint', cursive;
+        color: royalblue;
+        margin-top: 40px;
+    }
+    
+    .Gift-button {
+        height: 45px;
+        width: 170px;
+        border-radius: 20px;
+        margin-top: 40px;
+        background-color: rgb(52, 196, 16);
+        font-size: 15px;
+        font-weight: bolder;
+        color: white;
+    }
+    
+    .Home-snack-right {
+        background-image: url('./../../Pictures/61HASW-WKiL.jpg');
+        height: 330px;
+        width: 330px;
+        background-size: cover;
+        float: left;
+        margin-top: 40px;
+    }
+    
+    .How-it-works-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .How-it-works {
+        font-size: 27px;
+        font-weight: bolder;
+        color: royalblue;
+        margin-top: 10px;
+    }
+    
+    .How-it-works-steps-container {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+    
+    .Home-step-pic-1 {
+        height: 150px;
+        width: 150px;
+        background-image: url('./../../Pictures/snacks.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .Home-step-pic-2 {
+        height: 150px;
+        width: 150px;
+        background-image: url('./../../Pictures/globe.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .Home-step-pic-3 {
+        height: 130px;
+        width: 130px;
+        background-image: url('./../../Pictures/7F88GAZJ.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .Home-steps-container {
+        display: flex;
+        width: 88%;
+        justify-content: space-around;
+    }
+    
+    .Home-step {
+        font-size: 17px;
+        font-family: 'Finger Paint', cursive;
+        color: royalblue;
+    }
+    
+    .Dotted-line {
+        font-size: 25px;
+        color: rgb(52, 196, 16);
+        border-bottom: dashed;
+        width: 400px;
+        margin-bottom: 14px;
+    }
+    
+    .Step-titles-container {
+        display: flex;
+        /* justify-content: space-between; */
+        width: 100%;
+        margin-top: 15px;
+    }
+    
+    .Step-title {
+        font-size: 20px;
+        font-weight: bolder;
+        color: royalblue;
+        width: 150px;
+        margin-left: 50px;
+    }
+    
+    .Step-title-2 {
+        font-size: 20px;
+        font-weight: bolder;
+        color: royalblue;
+        width: 220px;
+        text-align: center;
+        margin-left: 430px;
+    }
+    
+    .Step-title-3 {
+        font-size: 20px;
+        font-weight: bolder;
+        color: royalblue;
+        width: 220px;
+        text-align: center;
+        margin-left: 400px;
+    }
+    
+    .Step-info-container {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .Step-info {
+        font-size: 15px;
+        color: gray;
+        width: 240px;
+        text-align: center;
+    }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .Home {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .Home-body-container {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Home-header {
+        display: flex;
+        width: 97%;
+        justify-content: flex-end;
+    }
+    
+    .Home-logo {
+        height: 30px;
+        font-size: 35px;
+        color: royalblue;
+        font-family: 'Ribeye Marrow', cursive;
+        text-align: center;
+        margin-left: 20px;
+    }
+    
+    .Login-container {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .User-icon {
+        height: 13px;
+        width: 13px;
+        background-image: url('./../../Pictures/user-icon.png');
+        background-size: cover;
+        margin-top: 32px;
+        margin-right: 5px;
+    }
+    
+    .Home-logout {
+        font-size: 15px;
+        font-weight: bolder;
+        margin-top: 30px;
+        color: royalblue;
+    }
+    
+    .Home-pic-container {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .Home-snack-left {
+        background-image: url('./../../Pictures/61Gx5HEFhfL._SX466_.jpg');
+        height: 210px;
+        width: 210px;
+        background-size: cover;
+        float: left;
+        margin-top: 20px;
+    }
+    
+    
+    .Slogan-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .Slogan-1 {
+        font-size: 25px;
+        font-weight: bolder;
+        color: royalblue;
+        /* width: 200px; */
+        margin-top: 50px;
+    }
+    
+    .Slogan-2 {
+        font-size: 20px;
+        /* font-weight: bolder; */
+        color: royalblue;
+        font-family: 'Finger Paint', cursive;
+        border-bottom: dotted rgb(58, 218, 19);
+    }
+    
+    .Slogan-3 {
+        font-size: 25px;
+        font-weight: bolder;
+        color: royalblue;
+        margin-top: 10px;
+    }
+    
+    .Home-button-container {
+        display: flex;
+        justify-content: space-between;
+        width: 200px;
+        margin-right: 120px;
+        margin-top: 50px;
+    }
+    
+    .Get-started-button {
+        height: 33px;
+        width: 120px;
+        border-radius: 20px;
+        margin-top: 20px;
+        background-color: royalblue;
+        font-size: 13px;
+        font-weight: bolder;
+        color: white;
+        margin-right: 20px;
+    }
+    
+    .Home-or {
+        font-size: 25px;
+        font-family: 'Finger Paint', cursive;
+        color: royalblue;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    
+    .Gift-button {
+        height: 33px;
+        width: 120px;
+        border-radius: 20px;
+        margin-top: 20px;
+        background-color: rgb(52, 196, 16);
+        font-size: 13px;
+        font-weight: bolder;
+        color: white;
+    }
+    
+    .Home-snack-right {
+        background-image: url('./../../Pictures/61HASW-WKiL.jpg');
+        height: 190px;
+        width: 190px;
+        background-size: cover;
+        float: left;
+        margin-top: 40px;
+    }
+    
+    .How-it-works-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .How-it-works {
+        font-size: 27px;
+        font-weight: bolder;
+        color: royalblue;
+        margin-top: 80px;
+    }
+    
+    .How-it-works-steps-container {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin-top: 40px;
+    }
+    
+    .Home-step-pic-1 {
+        height: 150px;
+        width: 150px;
+        background-image: url('./../../Pictures/snacks.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .Home-step-pic-2 {
+        height: 150px;
+        width: 150px;
+        background-image: url('./../../Pictures/globe.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .Home-step-pic-3 {
+        height: 130px;
+        width: 130px;
+        background-image: url('./../../Pictures/7F88GAZJ.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .Home-steps-container {
+        display: flex;
+        width: 88%;
+        justify-content: space-around;
+    }
+    
+    .Home-step {
+        font-size: 20px;
+        font-family: 'Finger Paint', cursive;
+        color: royalblue;
+    }
+    
+    .Dotted-line {
+        font-size: 25px;
+        color: rgb(52, 196, 16);
+        border-bottom: dashed;
+        width: 110px;
+        margin-bottom: 14px;
+    }
+    
+    .Step-titles-container {
+        display: flex;
+        /* justify-content: space-between; */
+        width: 90%;
+        margin-top: 15px;
+    }
+    
+    .Step-title {
+        font-size: 16px;
+        font-weight: bolder;
+        color: royalblue;
+        width: 75px;
+        margin-left: 25px;
+    }
+    
+    .Step-title-2 {
+        font-size: 16px;
+        font-weight: bolder;
+        color: royalblue;
+        width: 110px;
+        text-align: center;
+        margin-left: 185px;
+    }
+    
+    .Step-title-3 {
+        font-size: 16px;
+        font-weight: bolder;
+        color: royalblue;
+        width: 110px;
+        text-align: center;
+        margin-left: 170px;
+    }
+    
+    .Step-info-container {
+        display: flex;
+        justify-content: space-between;
+        width: 97%;
+    }
+    
+    .Step-info {
+        font-size: 16px;
+        color: gray;
+        width: 180px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    
+    .Home {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .Home-body-container {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Home-header {
+        display: flex;
+        width: 97%;
+        justify-content: flex-end;
+    }
+    
+    .Home-logo {
+        height: 20px;
+        font-size: 25px;
+        color: royalblue;
+        font-family: 'Ribeye Marrow', cursive;
+        text-align: center;
+        margin-left: 20px;
+    }
+    
+    .Login-container {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .User-icon {
+        height: 10px;
+        width: 10px;
+        background-image: url('./../../Pictures/user-icon.png');
+        background-size: cover;
+        margin-top: 11px;
+        margin-right: 2px;
+    }
+    
+    .Home-logout {
+        font-size: 10px;
+        font-weight: bolder;
+        margin-top: 10px;
+        color: royalblue;
+    }
+    
+    .Home-pic-container {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 400px;
+    }
+    
+    .Home-snack-left {
+        background-image: url('./../../Pictures/61Gx5HEFhfL._SX466_.jpg');
+        height: 210px;
+        width: 210px;
+        background-size: cover;
+        float: left;
+        margin-top: 20px;
+        display: none;
+    }
+    
+    
+    .Slogan-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .Slogan-1 {
+        font-size: 20px;
+        font-weight: bolder;
+        color: royalblue;
+        /* width: 200px; */
+        margin-top: 30px;
+    }
+    
+    .Slogan-2 {
+        font-size: 15px;
+        /* font-weight: bolder; */
+        color: royalblue;
+        font-family: 'Finger Paint', cursive;
+        border-bottom: dotted rgb(58, 218, 19);
+    }
+    
+    .Slogan-3 {
+        font-size: 20px;
+        font-weight: bolder;
+        color: royalblue;
+        margin-top: 10px;
+    }
+    
+    .Home-button-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 200px;
+        margin-right: 120px;
+        margin-top: 50px;
+    }
+    
+    .Get-started-button {
+        height: 33px;
+        width: 120px;
+        border-radius: 20px;
+        /* margin-top: 20px; */
+        background-color: royalblue;
+        font-size: 13px;
+        font-weight: bolder;
+        color: white;
+        margin-right: 20px;
+    }
+    
+    .Home-or {
+        font-size: 25px;
+        font-family: 'Finger Paint', cursive;
+        color: royalblue;
+        margin-top: 1px;
+        margin-left: 45px;
+    }
+    
+    .Gift-button {
+        height: 33px;
+        width: 120px;
+        border-radius: 20px;
+        margin-top: 1px;
+        background-color: rgb(52, 196, 16);
+        font-size: 13px;
+        font-weight: bolder;
+        color: white;
+    }
+    
+    .Home-snack-right {
+        background-image: url('./../../Pictures/61HASW-WKiL.jpg');
+        height: 350px;
+        width: 200px;
+        background-size: cover;
+        /* float: left; */
+        /* margin-top: 40px; */
+        margin-left: 200px;
+        /* margin-bottom: 100px; */
+    }
+    
+    .How-it-works-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .How-it-works {
+        font-size: 16px;
+        font-weight: bolder;
+        color: royalblue;
+        margin-top: 20px;
+    }
+    
+    .How-it-works-steps-container {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin-top: 1px;
+    }
+    
+    .Home-step-pic-1 {
+        height: 60px;
+        width: 60px;
+        background-image: url('./../../Pictures/snacks.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .Home-step-pic-2 {
+        height: 60px;
+        width: 60px;
+        background-image: url('./../../Pictures/globe.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .Home-step-pic-3 {
+        height: 55px;
+        width: 55px;
+        background-image: url('./../../Pictures/7F88GAZJ.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .Home-steps-container {
+        display: flex;
+        width: 88%;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+    
+    .Home-step {
+        font-size: 16px;
+        font-family: 'Finger Paint', cursive;
+        color: royalblue;
+    }
+    
+    .Dotted-line {
+        font-size: 25px;
+        color: rgb(52, 196, 16);
+        border-bottom: dashed;
+        width: 60px;
+        margin-bottom: 14px;
+    }
+
+    @media (max-width: 600px) {
+        
+        .Step-titles-container {
+            display: flex;
+            width: 90%;
+            margin-top: 15px;
+        }
+        
+        .Step-title {
+            font-size: 16px;
+            font-weight: bolder;
+            color: royalblue;
+            width: 75px;
+            margin-left: 25px;
+            display: none;
+        }
+        
+        .Step-title-2 {
+            font-size: 16px;
+            font-weight: bolder;
+            color: royalblue;
+            width: 110px;
+            text-align: center;
+            margin-left: 185px;
+            display: none;
+        }
+        
+        .Step-title-3 {
+            font-size: 16px;
+            font-weight: bolder;
+            color: royalblue;
+            width: 110px;
+            text-align: center;
+            margin-left: 170px;
+            display: none;
+        }
+    }
+    
+    .Step-info-container {
+        display: flex;
+        justify-content: space-between;
+        width: 97%;
+    }
+    
+    .Step-info {
+        font-size: 16px;
+        color: gray;
+        width: 180px;
+        text-align: center;
+    }
+}
