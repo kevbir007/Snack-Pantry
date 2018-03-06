@@ -91,10 +91,10 @@ app.get('/api/checkId', function(req, res, next) {
   .catch((error) => res.send(error))
 })
 
-app.put('/api/join', function(req, res, next) {
+app.get('/api/join/:id', function(req, res, next) {
   const db = app.get("db");
-  console.log('checking auth id', req.user)
-  db.Update_all([req.user.id])
+  console.log('checking user id', req.user)
+  db.Update_all([req.user])
   .then((response) => {console.log(response); res.status(200).send(response)})
   .catch((error) => res.send(error))
 })

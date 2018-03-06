@@ -182,12 +182,6 @@ class Checkout extends React.Component {
         .catch((error) => console.log('error', error))
     }
 
-    joinAll() {
-        axios.put('/api/join', {
-            
-        })
-    }
-
     placeOrderButton() {
         this.createUserInfo()
         this.createOrder()
@@ -295,7 +289,9 @@ class Checkout extends React.Component {
                             {this.yumRecurring()}
                             {this.yumYumRecurring()}
                         </div>
-                        <button className='Place-order-button' onClick={this.placeOrderButton}>PLACE ORDER</button>
+                        <Link to='Thanks'>
+                            <button className='Place-order-button' onClick={this.placeOrderButton}>PLACE ORDER</button>
+                        </Link>
                     </div>
                 </div>
             </div>

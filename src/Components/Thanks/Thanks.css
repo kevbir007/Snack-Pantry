@@ -1,8 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Finger+Paint');
+@import url('https://fonts.googleapis.com/css?family=Ribeye+Marrow');
+
 .Thanks {
     height: 100vh;
     width: 100vw;
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
+}
+
+.Thanks-logo {
+    height: 100px;
+    font-size: 45px;
+    color: royalblue;
+    font-family: 'Ribeye Marrow', cursive;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Thank-you-message {
+    font-size: 60px;
+    /* font-weight: bolder; */
+    color: royalblue;
+    font-family: 'Finger Paint', cursive;
+    border-bottom: dotted rgb(58, 218, 19);
+    margin-top: 200px;
+}
+
+.Return-home-button {
+    height: 45px;
+    width: 170px;
+    border-radius: 20px;
+    margin-top: 40px;
+    background-color: royalblue;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
 }

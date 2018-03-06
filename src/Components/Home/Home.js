@@ -61,7 +61,7 @@ export default class Home extends React.Component {
                     <div className='Step-info-container'>
                         <div className='Step-info'>Travel to a new country every month and discover the best snacks and candies they have to offer!</div>
                         <div className='Step-info'>From rich dark chocolate with tangy orange peels from Greece to zesty tomato chips from Thailand, you never know what you’re going to get inside your box!</div>
-                        <div className='Step-info'>Never miss a destination! Your subscription renews automatically at the beginning of every month so you’ll be all set for your next country. Need a break? We have an easy 1-step cancellation process.</div>
+                        <div className='Step-info'>Never miss a destination! Your subscription renews automatically at the beginning of every month so you’ll be all set for your next country.</div>
                     </div>
                 </div>
                 </div>
