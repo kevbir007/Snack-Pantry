@@ -8,6 +8,9 @@ const strategy = require(`./strategy.js`);
 require('dotenv').config()
 
 const app = express();
+
+app.use( express.static( `${__dirname}/../build` ) );
+
 massive(process.env.CONNECTION_STRING).then(dbInstance => {
   console.log('connected to db')
   app.set('db', dbInstance)
