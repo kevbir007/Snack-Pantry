@@ -15,7 +15,7 @@ export default class Home extends React.Component {
                     <div className='Home-header'>
                         <div className="Login-container">
                             <div className="User-icon"></div>
-                            <a href='http://localhost:3001/logout'>
+                            <a href='/logout'>
                                 <div className='Home-logout'>LOGOUT</div>
                             </a>
                         </div>

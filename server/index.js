@@ -49,12 +49,12 @@ app.get('/login',
 
 app.get('/me', (req, res, next) => {
   if (!req.user) {
-    res.redirect('http://localhost:3000/#/');
+    res.redirect('/#/');
   } else {
     console.log('I am the session', req.session.passport.user.id, typeof (req.session))
     console.log('I am the user', req.user.id)
     // req.session.user.authid = req.session.passport.user.id
-    res.redirect('http://localhost:3000/#/home');
+    res.redirect('/#/home');
     // req.user === req.session.passport.user
     // console.log( req.user )
     // console.log( req.session.passport.user );

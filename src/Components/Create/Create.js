@@ -26,7 +26,7 @@ export default class Create extends React.Component {
                     </div>
                     <div className='Create-account-text'>Create Account</div>
                     <div className='Create-mid-container'>
-                        <a href='http://localhost:3001/login'>
+                        <a href='/login'>
                             <button className='Login-create-button'>Login/Create</button>
                         </a>
                     </div>
